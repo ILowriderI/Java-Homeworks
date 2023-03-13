@@ -1,0 +1,1 @@
+{cherry=вишневий, orchard=садок, by=біля, hello=привіт, house=хати}
