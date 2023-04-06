@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>HW#3</title>
+</head>
+<body>
+    <div class="wrap">
+<div class="cont">
+    <h1>GET</h1>
+    <h2>GET all items</h2>
+    <h3>url:http://localhost:8080/items</h3>
+   
+    <div class="text"></div>
+</div>
+<div class="cont">
+    <h1>GET</h1>
+    <h2>GET one item</h2>
+    <h3>url:http://localhost:8080/item/(item id)</h3>
+   
+    <div class="text"></div>
+</div>
+<div class="cont">
+    <h1>POST</h1>
+    <h2>POST many items</h2>
+    <h3>url:http://localhost:8080/items</h3>
+   
+    <div class="text">
+     [
+     {
+      "item" : "text1"
+    },
+     {
+       "item" : "text2"
+     }
+    ]
+    </div>
+</div>
+<div class="cont">
+    <h1>POST</h1>
+    <h2>POST one item</h2>
+    <h3>url:http://localhost:8080/item/(item id)</h3>
+   
+    <div class="text">
+        {
+            "item" : "some text"
+        }
+    </div>
+</div>
+
+<div class="cont">
+    <h1>PUT</h1>
+    <h2>Update item</h2>
+    <h3>url:http://localhost:8080/item</h3>
+   
+    <div class="text">
+        {
+            "item" : "some text",
+            "id" : (some id)
+        }
+    </div>
+</div>
+<div class="cont">
+    <h1>DELETE</h1>
+    <h2>Delete one item</h2>
+    <h3>url:http://localhost:8080/item/(some id)</h3>
+   
+    <div class="text">
+        {
+            "item" : "some text",
+            "id" : (some id)
+        }
+    </div>
+</div>
+
+
+    </div>
+</body>
+</html>
